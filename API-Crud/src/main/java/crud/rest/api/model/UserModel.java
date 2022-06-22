@@ -12,7 +12,7 @@ public class UserModel {
     @Column(nullable = false, length = 100)
     public String name;
     @Column(nullable = false, length = 11)
-    public long cpf;
+    public long CPF;
     @Column(length = 20)
     public String surName;
     @Column(nullable = false, length = 1)
@@ -61,11 +61,11 @@ public class UserModel {
     }
 
     public long getCPF() {
-        return cpf;
+        return CPF;
     }
 
-    public void setCPF(long cpf) {
-        this.cpf = cpf;
+    public void setCPF(long CPF) {
+        this.CPF = CPF;
     }
 
     public String getSurName() {

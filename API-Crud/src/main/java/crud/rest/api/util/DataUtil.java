@@ -1,11 +1,10 @@
 package crud.rest.api.util;
 
-import org.springframework.stereotype.Service;
-
+import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-@Service
+@Component
 public class DataUtil {
     public String Now()
     {
